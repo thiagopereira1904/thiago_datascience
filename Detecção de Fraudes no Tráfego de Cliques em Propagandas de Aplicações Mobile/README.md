@@ -21,7 +21,7 @@ está desafiado a criar um algoritmo que possa prever se um usuário fará o
 download de um aplicativo depois de clicar em um anúncio de aplicativo para
 dispositivos móveis.
 <b>trata-se de um projeto da
-Formação Cientista de Dados da Data Science Academy.</b>
+Formação Cientista de Dados da Data Science Academy.</b> <br>
 Fonte dos dados: 
 https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data
 
