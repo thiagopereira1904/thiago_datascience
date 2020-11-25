@@ -28,5 +28,5 @@ https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data
 
 <h2> Obs: Tanto a análise exploratória quanto a construção do modelo foram feitos em R. <br>
  O GitHub não tem suporte para visualização do R markdown, portanto, para visualiza-lo, acesse 
- este link https://htmlpreview.github.io/, escolha o arquivo AnaliseExploratoria.html ou Modelo.html, 
+ este link https://htmlpreview.github.io/, escolha o arquivo AnaliseExploratoriaNotebook.html ou ConstrucaoModeloNotebook.html, 
  copie o link do arquivo escolhido e cole no site dito anteriormente. </h2>
