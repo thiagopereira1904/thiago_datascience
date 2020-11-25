@@ -20,7 +20,8 @@ fraudadores e pediram a sua ajuda para desenvolver ainda mais a solução. Você
 está desafiado a criar um algoritmo que possa prever se um usuário fará o
 download de um aplicativo depois de clicar em um anúncio de aplicativo para
 dispositivos móveis.
-
+<b>trata-se de um projeto da
+Formação Cientista de Dados da Data Science Academy.</b>
 Fonte dos dados: 
 https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data
 
