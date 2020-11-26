@@ -20,7 +20,8 @@ fraudadores e pediram a sua ajuda para desenvolver ainda mais a solução. Você
 está desafiado a criar um algoritmo que possa prever se um usuário fará o
 download de um aplicativo depois de clicar em um anúncio de aplicativo para
 dispositivos móveis.
-
+<b>trata-se de um projeto da
+Formação Cientista de Dados da Data Science Academy.</b> <br>
 Fonte dos dados: 
 https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data
 
@@ -28,5 +29,5 @@ https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection/data
 
 <h2> Obs: Tanto a análise exploratória quanto a construção do modelo foram feitos em R. <br>
  O GitHub não tem suporte para visualização do R markdown, portanto, para visualiza-lo, acesse 
- este link https://htmlpreview.github.io/, escolha o arquivo AnaliseExploratoria.html ou Modelo.html, 
+ este link https://htmlpreview.github.io/, escolha o arquivo AnaliseExploratoriaNotebook.html ou ConstrucaoModeloNotebook.html, 
  copie o link do arquivo escolhido e cole no site dito anteriormente. </h2>
