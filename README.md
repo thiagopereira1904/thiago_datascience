@@ -15,8 +15,8 @@ As a Data Scientist Intern, with ability to work in team environments, and atten
 
 ## Projetos:
 
-* **Detecção de Fraudes no Tráfego de Cliques em Propagandas de Aplicações Mobile:** encurtador.com.br/ahmx0
-
+* **Detecção de Fraudes no Tráfego de Cliques em Propagandas de Aplicações Mobile:** encurtador.com.br/fgpyz
+* **Reconhecimento Facial com Machine Learning utilizando SVM e PCA:** encurtador.com.br/fyJR0 
 ---
 
 
