@@ -16,7 +16,7 @@ As a Data Scientist Intern, with ability to work in team environments, and atten
 ## Projetos:
 
 * **Detecção de Fraudes no Tráfego de Cliques em Propagandas de Aplicações Mobile:** (https://bit.ly/3o74kwU)
-* **Reconhecimento Facial com Machine Learning utilizando SVM e PCA:** (https://bit.ly/3o74kwU) 
+* **Reconhecimento Facial com Machine Learning utilizando SVM e PCA:** (https://bit.ly/33wWwN3) 
 ---
 
 
