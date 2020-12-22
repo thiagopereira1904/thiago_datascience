@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css')}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/bootstrap.min.css' )}}" type="text/css">
+  <link rel="shortcut icon" href="{{ url_for('static', filename= 'imgs/fav-icon.png' )}}" type="image/x-icon">
+  <title>Churn Telecom</title>
+</head>
+
+<body style="background-color: #F5F5F5;">
+  {% block content %}
+  <center>
+    <div class="col-lg-7 shadow-sm p-3 mb-5 bg-white rounded">
+      <header>
+        <div class="col">
+          <p class='title'> <b> API - Prevendo Customer Churn </b></p>
+          <p class='subtitle'><b>Customer Churn </b> (ou Rotatividade de Clientes, em uma tradução livre) refere-se a
+            uma
+            decisão
+            tomada pelo cliente sobre o término do relacionamento comercial ou perda do cliente. </p>
+          <center><img src="{{ url_for('static', filename= 'imgs/img1.png' )}}" class="img-fluid" style="width: 50%;">
+          </center>
+        </div>
+      </header>
+      <main>
+
+        <p> Preencha o formulário com os dados do cliente, em seguida clique em verificar para realizar a previsão. </p>
+        <form action="{{url_for('prever')}}" method="POST" enctype="multipart/form-data">
+          {{ form.csrf_token }}
+          <div class="row">
+            <div class="col-lg-2">
+              <label for="">state:</label>
+              {{form.state(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">account_length:</label>
+              {{form.account_length(class_="form-control")}}
+            </div>
+
+            <div class='col-lg-2'>
+              <label for="">international_plan</label>
+              {{form.international_plan(class_="form-control")}}
+            </div>
+            <div class='col-lg-2'>
+              <label for="">voice_mail_plan:</label>
+              {{form.voice_mail_plan(class_="form-control")}}
+            </div>
+            <div class="col-lg-4">
+              <label for="">number_vmail_messages:</label>
+              {{form.number_vmail_messages(class_="form-control")}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2">
+              <label for="">total_day_calls:</label>
+              {{form.total_day_calls(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">total_day_charge:</label>
+              {{form.total_day_charge(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">total_eve_minutes:</label>
+              {{form.total_eve_minutes(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">total_eve_calls:</label>
+              {{form.total_eve_calls(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">total_eve_charge:</label>
+              {{form.total_eve_charge(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">total_night_calls:</label>
+              {{form.total_night_calls(class_="form-control")}}
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2">
+              <label for="">total_night_minutes:</label>
+              {{form.total_night_minutes(class_="form-control")}}
+            </div>
+
+            <div class="col-lg-2">
+              <label for="">total_night_charge:</label>
+              {{form.total_night_charge(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">total_intl_minutes:</label>
+              {{form.total_intl_minutes(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">total_intl_calls:</label>
+              {{form.total_intl_calls(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">total_intl_charge:</label>
+              {{form.total_intl_charge(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">area_code:</label>
+              {{form.area_code(class_="form-control")}}
+            </div>
+            <div class="col-lg-5">
+              <label for="">number_customer_service_calls:</label>
+              {{form.number_customer_service_calls(class_="form-control")}}
+            </div>
+            <div class="col-lg-2">
+              <label for="">total_day_minutes:</label>
+              {{form.total_day_minutes(class_="form-control")}}
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              <button type="submit" class="btn btn-success" style="width: 100px;">Verificar</button>
+            </div>
+          </div>
+        </form>
+      </main>
+      <br>
+      <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3">
+          By <a href="https://github.com/thiagopereira1904/thiago_datascience">Thiago Pereira </a>
+        </div>
+      </footer>
+    </div>
+    </div>
+    {% endblock %}
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</body>
+
+</html>
