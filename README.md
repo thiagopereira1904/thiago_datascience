@@ -7,7 +7,7 @@
 
 As a Data Scientist Intern, with ability to work in team environments, and attention to details, i developed a critical thinking and problem-solving skills.
 
-**Background in:** Python, R, SQL, Data Exploration, Data Munging, Machine Learning, Statics, Microsoft Azure Machine Learning, APIs, Power BI.
+**Background in:** Python, R, SQL, Data Exploration, Data Munging, Machine Learning, Statistics, Microsoft Azure Machine Learning, APIs, Power BI.
 
 **Links:**
 * [LinkedIn](https://www.linkedin.com/in/thiago-pereira-61756b171/)
