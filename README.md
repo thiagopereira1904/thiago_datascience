@@ -5,7 +5,7 @@
 # Thiago Pereira
 <sub>*Product & Pricing Intern* at Itaú Unibanco</sub>
 
-As a Data Scientist Intern at Bradesco Bank, with ability to work in team environments, i developed a critical thinking and problem-solving skills.
+As a Data Scientist Intern at Bradesco Bank, with ability to work in team environments, i develop a critical thinking and problem-solving skills.
 
 **Background in:** Python, R, SQL, Statistics, Data Exploration, Machine Learning,  Microsoft Azure Machine Learning, APIs, Power BI, Tableau.
 
